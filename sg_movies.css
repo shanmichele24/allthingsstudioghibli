@@ -1,0 +1,86 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('sg_mbackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #222;
+}
+
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+}
+
+
+
+.movie-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.0);
+  border-radius: 10px;
+}
+
+.movie-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #E0FFFF;
+  padding: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+
+.movie-item img {
+  width: 60px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.movie-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em  
+}
+
+.movie-item:hover {
+  background-color: rgba(242, 242, 242, 0.4);
+}
+
+
+
+
+nav {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  bottom: 0;
+  padding: 10px 0;
+}
+
+nav a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+
+
